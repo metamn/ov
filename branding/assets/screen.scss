@@ -5,3 +5,54 @@
 
 @import "compass/reset";
 @import "compass/css3";
+
+@import "atoms/fonts";
+@import "atoms/layout";
+
+
+html, body, .container, article {
+  height: 100%;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.25;
+  
+  body {
+    .container {
+      
+      article {
+        border-bottom: 1px solid #ccc;
+        
+        h1, p {
+          @include center;
+          position: relative;
+        }
+        
+        h1 {
+          font-size: 1200%;
+        }
+        
+        p {
+          color: #ccc;
+        }
+        
+        &#f1 h1 {
+          @include font-family("Kaushan Script");
+        }
+        
+        &#f2 h1 {
+          @include font-family("Allura");
+        }
+        
+        &#f3 h1 {
+          @include font-family("Petit Formal Script");
+        }
+        
+        &#f4 h1 {
+          @include font-family("Unica One");
+        }
+      }
+    }
+  }
+}

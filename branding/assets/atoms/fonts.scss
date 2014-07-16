@@ -1,0 +1,9 @@
+// Fonts with RO characters displaying wel Ovazut
+//@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Kaushan+Script|Patrick+Hand|Abril+Fatface|Racing+Sans+One|Allura|Grand+Hotel|Gruppo|Forum|Petit+Formal+Script|Patrick+Hand+SC|Bowlby+One+SC|Voces|MedievalSharp|Unica+One|Life+Savers|Modern+Antiqua|Milonga|Raleway+Dots|Pirata+One|Ranchers|Joti+One|Croissant+One|New+Rocker|Kalam:400,300,700&subset=latin,latin-ext);
+
+
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script|Allura|Petit+Formal+Script|Unica+One&subset=latin,latin-ext);
+
+@mixin font-family($family) {
+  font-family: $family, cursive;
+}
