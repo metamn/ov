@@ -70,10 +70,11 @@ html {
   font-size: 100%;
   line-height: 1.25;
 }
-html body.fonts .container article {
+html body .container article {
   border-bottom: 1px solid #ccc;
 }
-html body.fonts .container article h1, html body.fonts .container article p {
+html body .container article h1 {
+  font-size: 1200%;
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -84,15 +85,46 @@ html body.fonts .container article h1, html body.fonts .container article p {
   text-align: center;
   position: relative;
 }
-html body.fonts .container article h1 {
-  font-size: 1200%;
-}
 @media only screen and (max-width: 47.999em) {
-  html body.fonts .container article h1 {
+  html body .container article h1 {
     font-size: 500%;
   }
 }
+html body.logo-unica .container article h1 {
+  font-family: "Unica One", cursive;
+}
+html body.logo-unica .container article h1:before {
+  content: '';
+  display: inline-flex;
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+  top: .4em;
+  left: .2em;
+}
+html body.logo-unica .container article#l1 h1:before {
+  content: url(../assets/images/icon_10174.png);
+}
+html body.logo-unica .container article#l2 h1:before {
+  content: url(../assets/images/icon_21455.png);
+}
+html body.logo-unica .container article#l3 h1:before {
+  content: url(../assets/images/icon_28945.png);
+  top: 0;
+}
+html body.logo-unica .container article#l4 h1:before {
+  content: url(../assets/images/icon_56777.png);
+}
 html body.fonts .container article p {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  position: relative;
   color: #ccc;
 }
 html body.fonts .container article#f1 h1 {
