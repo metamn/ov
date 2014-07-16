@@ -52,6 +52,18 @@ html {
         &#f4 h1 {
           @include font-family("Unica One");
         }
+        
+        &#f5 h1 {
+          @include font-family("Life Savers");
+        }
+        
+        &#f6 h1 {
+          @include font-family("Croissant One");
+        }
+        
+        &#f7 h1 {
+          @include font-family("Kalam");
+        }
       }
     }
   }
