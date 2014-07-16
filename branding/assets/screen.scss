@@ -30,6 +30,10 @@ html {
         
         h1 {
           font-size: 1200%;
+          
+          @include below-tablet {
+            font-size: 500%;
+          }
         }
         
         p {

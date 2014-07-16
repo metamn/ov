@@ -87,6 +87,11 @@ html body.fonts .container article h1, html body.fonts .container article p {
 html body.fonts .container article h1 {
   font-size: 1200%;
 }
+@media only screen and (max-width: 47.999em) {
+  html body.fonts .container article h1 {
+    font-size: 500%;
+  }
+}
 html body.fonts .container article p {
   color: #ccc;
 }

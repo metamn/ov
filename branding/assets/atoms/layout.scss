@@ -1,3 +1,18 @@
+// Breakpoints
+// ===========================================================
+
+$breakpoint-tablet: 48em; // 768px;
+
+
+@mixin below-tablet {
+  @media only screen and (max-width: $breakpoint-tablet - 0.001) {
+    @content
+  }
+}
+
+
+
+
 // Mixins
 // ===========================================================
 
