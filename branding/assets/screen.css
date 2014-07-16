@@ -70,10 +70,10 @@ html {
   font-size: 100%;
   line-height: 1.25;
 }
-html body .container article {
+html body.fonts .container article {
   border-bottom: 1px solid #ccc;
 }
-html body .container article h1, html body .container article p {
+html body.fonts .container article h1, html body.fonts .container article p {
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -84,30 +84,30 @@ html body .container article h1, html body .container article p {
   text-align: center;
   position: relative;
 }
-html body .container article h1 {
+html body.fonts .container article h1 {
   font-size: 1200%;
 }
-html body .container article p {
+html body.fonts .container article p {
   color: #ccc;
 }
-html body .container article#f1 h1 {
+html body.fonts .container article#f1 h1 {
   font-family: "Kaushan Script", cursive;
 }
-html body .container article#f2 h1 {
+html body.fonts .container article#f2 h1 {
   font-family: "Allura", cursive;
 }
-html body .container article#f3 h1 {
+html body.fonts .container article#f3 h1 {
   font-family: "Petit Formal Script", cursive;
 }
-html body .container article#f4 h1 {
+html body.fonts .container article#f4 h1 {
   font-family: "Unica One", cursive;
 }
-html body .container article#f5 h1 {
+html body.fonts .container article#f5 h1 {
   font-family: "Life Savers", cursive;
 }
-html body .container article#f6 h1 {
+html body.fonts .container article#f6 h1 {
   font-family: "Croissant One", cursive;
 }
-html body .container article#f7 h1 {
+html body.fonts .container article#f7 h1 {
   font-family: "Kalam", cursive;
 }
