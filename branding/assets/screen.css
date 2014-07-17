@@ -90,6 +90,29 @@ html body .container article h1 {
     font-size: 500%;
   }
 }
+html body.straplines .container article h1 {
+  font-family: "Kalam", cursive;
+  font-size: 600%;
+}
+html body.straplines .container article aside {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  position: relative;
+  color: #999;
+  font-size: larger;
+}
+html body.straplines .container article aside ol {
+  list-style: decimal;
+}
+html body.straplines .container article aside ol li {
+  margin-top: 1.25em;
+}
 html body.logo-unica .container article h1 {
   font-family: "Unica One", cursive;
 }

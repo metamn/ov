@@ -36,6 +36,34 @@ html {
     }
   }
   
+  
+  body.straplines {
+    .container {
+      article {
+        h1 {
+          @include font-family("Kalam");
+          font-size: 600%;
+        }
+        
+        aside {
+          @include center;
+          position: relative;
+          
+          color: #999;
+          font-size: larger;
+          
+          ol {
+            list-style: decimal;
+            
+            li {
+              margin-top: 1.25em;
+            }
+          }
+        }
+      }
+    }
+  }
+  
   body.logo-unica {
     .container {
       article {
