@@ -102,8 +102,8 @@ html body.logo-unica .container article h1:before {
   top: .4em;
   left: .2em;
 }
-html body.logo-unica .container article#l1 h1:before {
-  content: url(../assets/images/icon_10174.png);
+html body.logo-unica .container article#l1 {
+  background: url("../assets/images/b1.jpg") repeat scroll 100% 30% transparent;
 }
 html body.logo-unica .container article#l2 h1:before {
   content: url(../assets/images/icon_21455.png);
