@@ -53,12 +53,20 @@ html {
           }
         }
         
-        &#l1 {
-          background: url("../assets/images/b1.jpg") repeat scroll 100% 30% transparent;
+        &#l0 {
+          //background:  url("../assets/images/green-plant.jpg") no-repeat scroll 0 0 transparent;
+        }
+        
+        &#l0 h1:before {
+          content: url(../assets/images/logo.jpg);
+          top: .2em;
+          left: -.2em;
+          width: auto;
+          height: auto;
         }
         
         &#l1 h1:before {
-          //content: url(../assets/images/icon_10174.png);
+          content: url(../assets/images/icon_10174.png);
         }
         
         &#l2 h1:before {
