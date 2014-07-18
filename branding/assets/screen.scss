@@ -17,6 +17,7 @@ html, body, .container, article {
 html {
   font-size: 100%;
   line-height: 1.25;
+  @include font-family('Lato', 300);
   
   body {
     .container {
@@ -39,6 +40,16 @@ html {
   
   body.straplines {
     .container {
+      header {
+        h1 {
+          @include font-family("Unica One");
+          font-size: 2.6154em;
+          margin: 1.25em;
+          
+          position: fixed;
+        }
+      }
+      
       article {
         h1 {
           @include font-family("Kalam");
@@ -49,7 +60,7 @@ html {
           @include center;
           position: relative;
           
-          color: #999;
+          color: #444;
           font-size: larger;
           
           ol {

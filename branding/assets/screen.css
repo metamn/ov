@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(http://fonts.googleapis.com/css?family=Kaushan+Script|Allura|Petit+Formal+Script|Unica+One|Life+Savers|Croissant+One|Kalam&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Kaushan+Script|Allura|Petit+Formal+Script|Unica+One|Life+Savers|Croissant+One|Kalam&subset=latin,latin-ext);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -69,6 +69,8 @@ html, body, .container, article {
 html {
   font-size: 100%;
   line-height: 1.25;
+  font-family: "Lato", cursive;
+  font-weight: 300;
 }
 html body .container article {
   border-bottom: 1px solid #ccc;
@@ -90,8 +92,16 @@ html body .container article h1 {
     font-size: 500%;
   }
 }
+html body.straplines .container header h1 {
+  font-family: "Unica One", cursive;
+  font-weight: 400;
+  font-size: 2.6154em;
+  margin: 1.25em;
+  position: fixed;
+}
 html body.straplines .container article h1 {
   font-family: "Kalam", cursive;
+  font-weight: 400;
   font-size: 600%;
 }
 html body.straplines .container article aside {
@@ -104,7 +114,7 @@ html body.straplines .container article aside {
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
   position: relative;
-  color: #999;
+  color: #444;
   font-size: larger;
 }
 html body.straplines .container article aside ol {
@@ -115,6 +125,7 @@ html body.straplines .container article aside ol li {
 }
 html body.logo-unica .container article h1 {
   font-family: "Unica One", cursive;
+  font-weight: 400;
 }
 html body.logo-unica .container article h1:before {
   content: '';
@@ -159,22 +170,29 @@ html body.fonts .container article p {
 }
 html body.fonts .container article#f1 h1 {
   font-family: "Kaushan Script", cursive;
+  font-weight: 400;
 }
 html body.fonts .container article#f2 h1 {
   font-family: "Allura", cursive;
+  font-weight: 400;
 }
 html body.fonts .container article#f3 h1 {
   font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
 }
 html body.fonts .container article#f4 h1 {
   font-family: "Unica One", cursive;
+  font-weight: 400;
 }
 html body.fonts .container article#f5 h1 {
   font-family: "Life Savers", cursive;
+  font-weight: 400;
 }
 html body.fonts .container article#f6 h1 {
   font-family: "Croissant One", cursive;
+  font-weight: 400;
 }
 html body.fonts .container article#f7 h1 {
   font-family: "Kalam", cursive;
+  font-weight: 400;
 }

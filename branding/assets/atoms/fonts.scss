@@ -2,11 +2,20 @@
 //@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Kaushan+Script|Patrick+Hand|Abril+Fatface|Racing+Sans+One|Allura|Grand+Hotel|Gruppo|Forum|Petit+Formal+Script|Patrick+Hand+SC|Bowlby+One+SC|Voces|MedievalSharp|Unica+One|Life+Savers|Modern+Antiqua|Milonga|Raleway+Dots|Pirata+One|Ranchers|Joti+One|Croissant+One|New+Rocker|Kalam:400,300,700&subset=latin,latin-ext);
 
 
-@import url(http://fonts.googleapis.com/css?family=Kaushan+Script|Allura|Petit+Formal+Script|Unica+One|Life+Savers|Croissant+One|Kalam&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Kaushan+Script|Allura|Petit+Formal+Script|Unica+One|Life+Savers|Croissant+One|Kalam&subset=latin,latin-ext);
 
-@mixin font-family($family) {
+@mixin font-family($family, $weight: 400) {
   font-family: $family, cursive;
+  font-weight: $weight;
 }
 
-// Unica One + Abel
-// 
+// Unica One + Abel (1 styles)
+// Kalam > 0
+// Lato > no Extended Latin support
+
+// Băutură din ovăz site:ro > 42.800 results
+// Bautura din ovaz site:ro > 102.000 results
+// emag: titluri cu accent, body without accent
+
+// => Lato is ok for body text.
+
