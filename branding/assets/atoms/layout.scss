@@ -17,6 +17,13 @@ $breakpoint-tablet: 48em; // 768px;
 // ===========================================================
 
 
+
+@mixin block {
+  width: 100%;
+  float: left;
+}
+
+
 /* Center vertically or horizontally
 - http://davidwalsh.name/css-vertical-center
 */

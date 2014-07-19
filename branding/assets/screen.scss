@@ -38,15 +38,57 @@ html {
   }
   
   
+  body.logo {
+    .container {
+      article {
+        border-bottom: 1px solid #eee;
+        
+        h1 {
+          @include font-family("Unica One");
+          font-size: 6.8462em;
+          
+          &:before {
+            content: '';
+            display: inline-flex;
+            position: relative;
+            top: .3125em;
+          }
+        }
+        
+        p {
+          @include center;
+          position: relative;
+          color: #ccc;
+        }
+        
+        &#l1 h1:before {
+          content: url(../assets/images/logo-1.png);
+        }
+        
+        &#l2 h1:before {
+          content: url(../assets/images/logo-2.png);
+        }
+      }
+    }
+  }
+  
+  
   body.straplines {
     .container {
       header {
+        margin: 1.25em;
+        position: fixed;
+        
         h1 {
           @include font-family("Unica One");
           font-size: 2.6154em;
-          margin: 1.25em;
-          
-          position: fixed;
+          margin: .625em 0 0 .3125em;
+        }
+        
+        h1, img {
+          width: auto;
+          float: left;
+          display: inline-block;
         }
       }
       
@@ -97,7 +139,7 @@ html {
         }
         
         &#l0 h1:before {
-          content: url(../assets/images/logo.jpg);
+          content: url(../assets/images/logo.png);
           top: .2em;
           left: -.2em;
           width: auto;

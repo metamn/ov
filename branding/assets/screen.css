@@ -92,12 +92,52 @@ html body .container article h1 {
     font-size: 500%;
   }
 }
+html body.logo .container article {
+  border-bottom: 1px solid #eee;
+}
+html body.logo .container article h1 {
+  font-family: "Unica One", cursive;
+  font-weight: 400;
+  font-size: 6.8462em;
+}
+html body.logo .container article h1:before {
+  content: '';
+  display: inline-flex;
+  position: relative;
+  top: .3125em;
+}
+html body.logo .container article p {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  position: relative;
+  color: #ccc;
+}
+html body.logo .container article#l1 h1:before {
+  content: url(../assets/images/logo-1.png);
+}
+html body.logo .container article#l2 h1:before {
+  content: url(../assets/images/logo-2.png);
+}
+html body.straplines .container header {
+  margin: 1.25em;
+  position: fixed;
+}
 html body.straplines .container header h1 {
   font-family: "Unica One", cursive;
   font-weight: 400;
   font-size: 2.6154em;
-  margin: 1.25em;
-  position: fixed;
+  margin: .625em 0 0 .3125em;
+}
+html body.straplines .container header h1, html body.straplines .container header img {
+  width: auto;
+  float: left;
+  display: inline-block;
 }
 html body.straplines .container article h1 {
   font-family: "Kalam", cursive;
@@ -137,7 +177,7 @@ html body.logo-unica .container article h1:before {
   left: .2em;
 }
 html body.logo-unica .container article#l0 h1:before {
-  content: url(../assets/images/logo.jpg);
+  content: url(../assets/images/logo.png);
   top: .2em;
   left: -.2em;
   width: auto;
