@@ -156,6 +156,7 @@ html body.straplines .container header h1, html body.straplines .container heade
 }
 html body.straplines .container header img.small {
   max-height: 100px;
+  max-width: 90px;
 }
 html body.straplines .container article h1 {
   font-family: "Kalam", cursive;
