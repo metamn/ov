@@ -102,6 +102,7 @@ html {
           @include font-family("Unica One");
           font-size: 2.6154em;
           margin: .625em 0 0 .3125em;
+          color: #384639;
         }
         
         h1, img {
@@ -118,6 +119,7 @@ html {
       
       article {
         //background: url(../assets/images/green-plant.jpg) no-repeat;
+        color: #384639;
         
         h1 {
           @include font-family("Kalam");

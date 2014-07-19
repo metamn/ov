@@ -148,6 +148,7 @@ html body.straplines .container header h1 {
   font-weight: 400;
   font-size: 2.6154em;
   margin: .625em 0 0 .3125em;
+  color: #384639;
 }
 html body.straplines .container header h1, html body.straplines .container header img {
   width: auto;
@@ -157,6 +158,9 @@ html body.straplines .container header h1, html body.straplines .container heade
 html body.straplines .container header img.small {
   max-height: 100px;
   max-width: 90px;
+}
+html body.straplines .container article {
+  color: #384639;
 }
 html body.straplines .container article h1 {
   font-family: "Kalam", cursive;
