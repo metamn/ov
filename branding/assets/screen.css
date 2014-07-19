@@ -99,6 +99,7 @@ html body.logo .container article h1 {
   font-family: "Unica One", cursive;
   font-weight: 400;
   font-size: 6.8462em;
+  color: #384639;
 }
 html body.logo .container article h1:before {
   content: '';
@@ -120,9 +121,23 @@ html body.logo .container article p {
 }
 html body.logo .container article#l1 h1:before {
   content: url(../assets/images/logo-1.png);
+  left: -.3125em;
 }
 html body.logo .container article#l2 h1:before {
   content: url(../assets/images/logo-2.png);
+}
+html body.logo .container article#l3 h1:before {
+  content: url(../assets/images/logo-3.png);
+}
+html body.logo .container article#l4 h1:before {
+  content: url(../assets/images/logo-4.png);
+}
+html body.logo .container article#l5 h1:before {
+  content: url(../assets/images/logo-5.png);
+  top: .625em;
+}
+html body.logo .container article#l6 h1:before {
+  content: url(../assets/images/logo-6.png);
 }
 html body.straplines .container header {
   margin: 1.25em;
@@ -138,6 +153,9 @@ html body.straplines .container header h1, html body.straplines .container heade
   width: auto;
   float: left;
   display: inline-block;
+}
+html body.straplines .container header img.small {
+  max-height: 100px;
 }
 html body.straplines .container article h1 {
   font-family: "Kalam", cursive;

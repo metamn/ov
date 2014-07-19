@@ -46,6 +46,7 @@ html {
         h1 {
           @include font-family("Unica One");
           font-size: 6.8462em;
+          color: #384639;
           
           &:before {
             content: '';
@@ -63,10 +64,28 @@ html {
         
         &#l1 h1:before {
           content: url(../assets/images/logo-1.png);
+          left: -.3125em;
         }
         
         &#l2 h1:before {
           content: url(../assets/images/logo-2.png);
+        }
+        
+        &#l3 h1:before {
+          content: url(../assets/images/logo-3.png);
+        }
+        
+        &#l4 h1:before {
+          content: url(../assets/images/logo-4.png);
+        }
+        
+        &#l5 h1:before {
+          content: url(../assets/images/logo-5.png);
+          top: .625em;
+        }
+        
+        &#l6 h1:before {
+          content: url(../assets/images/logo-6.png);
         }
       }
     }
@@ -89,6 +108,10 @@ html {
           width: auto;
           float: left;
           display: inline-block;
+        }
+        
+        img.small {
+          max-height: 100px;
         }
       }
       
