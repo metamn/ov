@@ -116,6 +116,8 @@ html {
       }
       
       article {
+        //background: url(../assets/images/green-plant.jpg) no-repeat;
+        
         h1 {
           @include font-family("Kalam");
           font-size: 600%;
